@@ -36,7 +36,7 @@
           .quote{background:var(--ink);color:#fff;text-align:center;padding:80px 24px;}
           .mark{color:var(--blue);font-family:'Fraunces',serif;font-size:3.4rem;line-height:0;display:block;height:26px;}
           blockquote{font-family:'Fraunces',serif;font-size:1.8rem;line-height:1.4;font-weight:600;max-width:840px;margin:30px auto 24px;}
-          cite{color:var(--blue);font-style:normal;font-weight:600;letter-spacing:.04em;}
+          cite{color:var(--blue);font-style:normal;font-weight:600;letter-spacing:.04em;font-size:1.15rem;display:inline-block;margin-top:8px;}
           @media(max-width:820px){
             .plan{padding:48px 20px;}
             h2{font-size:1.7rem;}
