@@ -27,12 +27,12 @@
       root.innerHTML = `
         <style>
           :host{display:block;width:100%;--ink:#111111;--blue:#29ABE2;--muted:#5b5b5b;--line:#e7e7e7;--soft:#F1F3F6;
-                font-family:'Inter',system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;box-sizing:border-box;}
+                font-family:'Inter',system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;box-sizing:border-box;background:#111111;}
           *{box-sizing:border-box;margin:0;padding:0;}
           h1,h2,h3{font-family:'Fraunces',Georgia,serif;letter-spacing:-.01em;line-height:1.1;}
           .wrap{max-width:1120px;margin:0 auto;padding:0 24px;}
           .center{max-width:760px;margin:0 auto;text-align:center;padding:0 24px;}
-          .pad{padding:78px 0;}
+          .pad{padding:78px 0;background:#ffffff;}
           .soft{background:var(--soft);}
           .accent{width:54px;height:3px;background:var(--blue);border-radius:2px;margin:0 auto 22px;}
           .accent.left{margin:0 0 22px;}
