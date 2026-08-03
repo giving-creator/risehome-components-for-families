@@ -25,6 +25,17 @@
       this._done = true;
       ensureFonts();
       var root = this.attachShadow({ mode: "open" });
+      // Wix locks custom elements to a fixed (often oversized) height, leaving a
+      // huge blank gap below the content. Force the element to hug its content.
+      var self = this;
+      function hug() {
+        self.style.setProperty("min-height", "0", "important");
+        self.style.setProperty("height", "auto", "important");
+      }
+      hug();
+      window.addEventListener("load", hug);
+      setTimeout(hug, 500);
+      setTimeout(hug, 1500);
       root.innerHTML = `
 <style>
 :host{display:block;width:100%;background:#0d0d10;
