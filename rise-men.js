@@ -231,12 +231,7 @@ h1,h2,h3{font-family:'Fraunces',Georgia,serif;letter-spacing:-.01em;line-height:
     <div class="num">24/7 Helpline <span>(325) 232-5449</span></div>
   </div>
 </section>
-
-<div class="info">
-  <b>Rise Discipleship Men's Home</b><br>
-  1202 Ash St, Abilene, TX 79601 · Men's Home Director: Belony Bargans<br>
-  Phone: (325) 232-5449 · Hours: 24 hours a day
-</div>`;
+`;
     }
   }
 
