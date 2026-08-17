@@ -64,6 +64,14 @@
                display:flex;align-items:center;justify-content:center;margin:0 auto 16px;}
           .step h3{font-size:1.18rem;margin-bottom:8px;}
           .step p{color:var(--muted);font-size:1rem;line-height:1.55;}
+          /* rise process (Rescue/Rebuild/Restore/Release) */
+          .eyebrow2{color:var(--blue);font-weight:700;letter-spacing:.16em;text-transform:uppercase;font-size:.76rem;margin-bottom:14px;}
+          .process{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:40px;}
+          .rstage{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px 20px;box-shadow:0 10px 30px rgba(17,17,17,.05);transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;}
+          .rstage:hover{border-color:var(--blue);box-shadow:0 16px 36px rgba(41,171,226,.30);transform:translateY(-4px);}
+          .rstage .rn{display:block;color:var(--blue);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.72rem;margin-bottom:6px;}
+          .rstage h3{font-size:1.7rem;margin-bottom:10px;}
+          .rstage p{color:var(--muted);font-size:.97rem;line-height:1.55;}
           /* transformation quote */
           .quote{border-left:4px solid var(--blue);padding-left:18px;margin-top:22px;font-size:1.05rem;color:#333;}
           .quote .qi{font-style:italic;}
@@ -92,6 +100,7 @@
             .hero h1{font-size:2.2rem;}
             .hero-photo{min-height:340px;}
             .steps{grid-template-columns:1fr;}
+            .process{grid-template-columns:1fr 1fr;}
             .grid2{grid-template-columns:1fr;gap:24px;}
             .proof .pull{font-size:1.35rem;}
           }
@@ -127,6 +136,23 @@
               <p class="lead">Rise takes in men and women the world gave up on and sends them home changed. We are not a waitlist or a hotline that hands you off. A real person answers day or night, and we walk with you the whole year. Free, always.</p>
             </div>
             <img class="photo" src="${GUIDE}" alt="Rise Discipleship men praying and being discipled together">
+          </div>
+        </section>
+
+        <section class="pad soft">
+          <div class="wrap">
+            <div class="center">
+              <div class="accent"></div>
+              <p class="eyebrow2">The Rise Process</p>
+              <h2>One path. From lost to free.</h2>
+              <p class="lead" style="max-width:640px;margin:0 auto;">Everyone who walks through our door walks the same proven path, from the day they arrive to the day they walk out ready for a new life.</p>
+            </div>
+            <div class="process">
+              <div class="rstage"><span class="rn">Step 01</span><h3>Rescue</h3><p>You're welcomed in with love and structure. Safe, and no longer alone.</p></div>
+              <div class="rstage"><span class="rn">Step 02</span><h3>Rebuild</h3><p>Discipleship rebuilds your faith, your identity, your discipline, and the healing underneath.</p></div>
+              <div class="rstage"><span class="rn">Step 03</span><h3>Restore</h3><p>You take back responsibility, trust, purpose, and the ability to lead again.</p></div>
+              <div class="rstage"><span class="rn">Step 04</span><h3>Release</h3><p>You graduate ready, with a clear plan for what comes next.</p></div>
+            </div>
           </div>
         </section>
 
