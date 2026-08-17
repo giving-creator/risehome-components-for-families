@@ -41,7 +41,9 @@
           .lead{font-size:1.16rem;color:#333;line-height:1.6;}
           .lead.dim{color:#c3ccd3;}
           .btn{display:inline-block;background:var(--blue);color:#fff;font-weight:700;font-size:1.05rem;
-               padding:16px 30px;border-radius:12px;text-decoration:none;border:0;cursor:pointer;}
+               padding:16px 30px;border-radius:12px;text-decoration:none;border:0;cursor:pointer;
+               transition:transform .18s ease,box-shadow .18s ease,filter .18s ease;}
+          .btn:hover{transform:translateY(-2px);filter:brightness(1.06);box-shadow:0 0 0 3px rgba(41,171,226,.30),0 12px 28px rgba(41,171,226,.55);}
           .photo{width:100%;min-height:340px;height:100%;object-fit:cover;border-radius:12px;}
           /* hero */
           .hero{background:var(--ink);color:#fff;}
@@ -72,6 +74,7 @@
           .rstage .rn{display:block;color:var(--blue);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.72rem;margin-bottom:6px;}
           .rstage h3{font-size:1.7rem;margin-bottom:10px;}
           .rstage p{color:var(--muted);font-size:.97rem;line-height:1.55;}
+          .ctarow{text-align:center;margin-top:44px;}
           /* transformation quote */
           .quote{border-left:4px solid var(--blue);padding-left:18px;margin-top:22px;font-size:1.05rem;color:#333;}
           .quote .qi{font-style:italic;}
@@ -148,11 +151,12 @@
               <p class="lead" style="max-width:640px;margin:0 auto;">Everyone who walks through our door walks the same proven path, from the day they arrive to the day they walk out ready for a new life.</p>
             </div>
             <div class="process">
-              <div class="rstage"><span class="rn">Step 01</span><h3>Rescue</h3><p>You're welcomed in with love and structure. Safe, and no longer alone.</p></div>
-              <div class="rstage"><span class="rn">Step 02</span><h3>Rebuild</h3><p>Discipleship rebuilds your faith, your identity, your discipline, and the healing underneath.</p></div>
-              <div class="rstage"><span class="rn">Step 03</span><h3>Restore</h3><p>You take back responsibility, trust, purpose, and the ability to lead again.</p></div>
-              <div class="rstage"><span class="rn">Step 04</span><h3>Release</h3><p>You graduate ready, with a clear plan for what comes next.</p></div>
+              <div class="rstage"><h3>Rescue</h3><p>You're welcomed in with love and structure. Safe, and no longer alone.</p></div>
+              <div class="rstage"><h3>Rebuild</h3><p>Discipleship rebuilds your faith, your identity, your discipline, and the healing underneath.</p></div>
+              <div class="rstage"><h3>Restore</h3><p>You take back responsibility, trust, purpose, and the ability to lead again.</p></div>
+              <div class="rstage"><h3>Release</h3><p>You graduate ready, with a clear plan for what comes next.</p></div>
             </div>
+            <div class="ctarow"><a class="btn" href="/get-help">Get Help Now</a></div>
           </div>
         </section>
 
@@ -164,6 +168,7 @@
               <div class="step"><div class="num">2</div><h3>Finish your intake.</h3><p>Answer a few questions so we can explain exactly what comes next.</p></div>
               <div class="step"><div class="num">3</div><h3>Come home and be transformed.</h3><p>Move in for one year and start your journey toward healing, freedom, and a future worth living.</p></div>
             </div>
+            <div class="ctarow"><a class="btn" href="/get-help">Get Help Now</a></div>
           </div>
         </section>
 
@@ -175,6 +180,7 @@
               <h2 class="left">Picture a year from now.</h2>
               <p class="lead">Sober. Back with the people you love. Leading instead of leaning. It has already happened for people further gone than you feel right now.</p>
               <div class="quote"><span class="qi">"It's not just me you saved. My daughter has her mother back."</span><b>— Clarice, Rise Discipleship Women's Home graduate</b></div>
+              <div style="margin-top:22px;"><a class="btn" href="/get-help">Get Help Now</a></div>
             </div>
           </div>
         </section>
